@@ -1,0 +1,40 @@
+{
+  "name": "custom.remote.python.demo_cron",
+  "version": "1.0.3",
+  "type": "python",
+  "entity": "CUSTOM_DEVICE",
+  "metricGroup": "tech.Custom_Technology",
+  "processTypeNames": [
+    "PYTHON"
+  ],
+  "technologies": [
+    "Custom Technology"
+  ],
+  "favicon": "",
+  "source": {
+    "package": "demo_cron",
+    "className": "DemoCron",
+    "install_requires": [
+      "croniter"
+    ],
+    "activation": "Remote"
+  },
+  "metrics": [],
+  "properties": [
+    {
+      "key": "cron_str",
+      "type": "String"
+    }
+  ],
+  "configUI": {
+    "displayName": "ActiveGate Demo Cron",
+    "properties": [
+      {
+        "key": "cron_str",
+        "displayName": "Cron String",
+        "displayHint": "5 0 * 8 *"
+      }
+    ]
+  },
+  "ui": {}
+}
