@@ -1,4 +1,4 @@
-This is a Dynatrace ActiveGate Extension that will run on a cronjob basis using corn strings, using e.g. following string `*/5 * * * *` it will run every 5min
+This is a Dynatrace ActiveGate Extension that will run on a cronjob basis using cron strings, e.g. following string `*/5 * * * *` it will run every 5min
 ```
 azureuser@test ..eplugin/custom.remote.python.demo_cron
 % tail DemoCron.log
